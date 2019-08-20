@@ -1,5 +1,5 @@
 let url = "http://on-hype.ru";
-жопа
+
 Feature('recoveryPass');
 
 const locators = require("./locators/locators.js");
@@ -22,10 +22,14 @@ const locators = require("./locators/locators.js");
 Scenario('See landing', async (I) => {
   I.amOnPage(url);
   I.wait(3);
-  
 
+  
+});
+
+Scenario('See landing', async (I) => {
 
 });
+
 
 
 
