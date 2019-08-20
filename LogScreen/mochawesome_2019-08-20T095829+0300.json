@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-08-20T06:58:16.526Z",
+    "end": "2019-08-20T06:58:29.335Z",
+    "duration": 12809,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5ef41f43-02ce-4193-a56a-f61084954342",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5f041479-4357-4c21-82eb-504bbd105bea",
+          "title": "recoveryPass",
+          "fullFile": "C:\\eto dlya testov\\Hype\\002contextAdsRecoveryPass_test.js",
+          "file": "\\002contextAdsRecoveryPass_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "recoveryPass \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 8949,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "14c49df9-1065-4a02-972d-a51074861784",
+              "parentUUID": "5f041479-4357-4c21-82eb-504bbd105bea",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "recoveryPass \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "a127e503-cb8c-488c-8ec1-9ebac375ffe9",
+              "parentUUID": "5f041479-4357-4c21-82eb-504bbd105bea",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "recoveryPass \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "ce182d8c-a1fc-4d49-8f79-bbd262b088e6",
+              "parentUUID": "5f041479-4357-4c21-82eb-504bbd105bea",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "recoveryPass \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "98c2a31b-604d-43d7-b21e-34c82945dd0a",
+              "parentUUID": "5f041479-4357-4c21-82eb-504bbd105bea",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "logoutAndClearCoockies",
+              "fullTitle": "recoveryPass: logoutAndClearCoockies",
+              "timedOut": false,
+              "duration": 3827,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "I.amOnPage(url);\npause();",
+              "err": {
+                "message": "Error: net::ERR_CERT_DATE_INVALID at http://on-hype.ru",
+                "estack": "net::ERR_CERT_DATE_INVALID at http://on-hype.ru\n\nScenario Steps:\n\n- Я.на_странице(\"http://on-hype.ru\") at Test.<anonymous> (002contextAdsRecoveryPass_test.js:23:5)\n\n",
+                "diff": null
+              },
+              "uuid": "519f7353-e087-4f59-91b9-a13e0594e8bf",
+              "parentUUID": "5f041479-4357-4c21-82eb-504bbd105bea",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "519f7353-e087-4f59-91b9-a13e0594e8bf"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3827,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./LogScreen",
+        "timestamp": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}
